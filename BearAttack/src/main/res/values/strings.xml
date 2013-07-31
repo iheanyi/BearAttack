@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" >Bear Attack!
+    </string>
+    <string name="action_settings" >Settings
+    </string>
+    <string name="bear_question" >Will you get eaten by a bear?
+    </string>
+    <string name="submit_button">Lets find out</string>
+    <string name="show_result">Result</string>
+
+    <string-array name="bear_type_array">
+        <item>Select Bear Type</item>
+        <item>Black</item>
+        <item>Brown</item>
+    </string-array>
+</resources>
