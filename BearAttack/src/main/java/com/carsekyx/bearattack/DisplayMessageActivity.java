@@ -13,34 +13,42 @@ import android.text.TextUtils;
  * Created by Nick on 16/07/13.
  */
 public class DisplayMessageActivity extends Activity {
+
+        /* Added a new TextView in the src/main/res/layout/activity_display_message.xml*/
+
+        TextView messageTextView;
         //@SuppressLint("NewApi")
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_display_message);
+
 
             // Get the message from the intent
             Intent intent = getIntent();
-            String name = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+            String name = intent.getStringExtra("name");
             //String bear_type = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
             //boolean checked = ((RadioButton) view).isChecked();
 
-            // Create the text view
-            TextView textView = new TextView(this);
-            textView.setTextSize(40);
-            //textView.setText(result);
+            // Find the text view
+            messageTextView = (TextView) findViewById(R.id.messageTextView);
+
             name = name.toLowerCase();
+
+            // Test for various conditions
             if(name.equals("nick") || name.equals("carsekyx")) {
-                textView.setText("I'd love to but he's just too good to look at");
+                messageTextView.setText("I'd love to but he's just too good to look at");
             } else if(name.equals("sean") || name.equals("sail")){
-                textView.setText("Gross, too much hair gel and feminism");
+                messageTextView.setText("Gross, too much hair gel and feminism");
             } else if(name.equals("")) {
-                textView.setText("You didn't enter a name. Go back and try again");
+                messageTextView.setText("You didn't enter a name. Go back and try again");
             } else {
                 name = name.substring(0, 1).toUpperCase() + name.substring(1);
-                textView.setText("I ate " + name + " and #{gender_title} was delicious");
+                messageTextView.setText("I ate " + name + " and #{gender_title} was delicious");
             }
+
             // Set the text view as the activity layout
-            setContentView(textView);
+            //setContentView(textView);
             //textView.setText(bear_type);
         }
 

@@ -2,44 +2,44 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res" >
+        <source path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res" >
             <file
                 name="ic_launcher"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_display_message"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\layout\activity_display_message.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/layout/activity_display_message.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\layout\activity_main.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\menu\main.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values\dimens.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -47,7 +47,7 @@
                 </dimen>
             </file>
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values\strings.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string-array name="bear_type_array" >
                     <item>
@@ -73,7 +73,7 @@ Brown
                 </string>
             </file>
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values\styles.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -95,16 +95,16 @@ Brown
                 </style>
             </file>
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values-sw600dp\dimens.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values-sw600dp/dimens.xml"
                 qualifiers="sw600dp" />
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values-sw720dp-land\dimens.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values-v11\styles.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -115,7 +115,7 @@ Brown
                 </style>
             </file>
             <file
-                path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\res\values-v14\styles.xml"
+                path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -126,10 +126,10 @@ Brown
                 </style>
             </file>
         </source>
-        <source path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\build\res\rs\debug" />
+        <source path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\debug\res" />
+        <source path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/debug/res" />
     </dataSet>
 
 </merger>

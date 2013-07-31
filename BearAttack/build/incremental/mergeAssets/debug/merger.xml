@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\main\assets" />
+        <source path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Nick\AndroidStudioProjects\BearAttackProject\BearAttack\src\debug\assets" />
+        <source path="/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/debug/assets" />
     </dataSet>
 
 </merger>

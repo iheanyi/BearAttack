@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BearAttack/BearAttack.iml" filepath="$PROJECT_DIR$/BearAttack/BearAttack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BearAttackProject.iml" filepath="$PROJECT_DIR$/BearAttackProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BearAttack.iml" filepath="$PROJECT_DIR$/BearAttack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BearAttack/BearAttack-BearAttack.iml" filepath="$PROJECT_DIR$/BearAttack/BearAttack-BearAttack.iml" />
     </modules>
   </component>
 </project>

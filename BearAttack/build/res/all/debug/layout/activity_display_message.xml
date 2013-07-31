@@ -5,4 +5,9 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-</LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="New Text"
+            android:id="@+id/messageTextView"/>
+</LinearLayout><!-- From: file:/Users/iekechukwu/programming/android/BearAttack/BearAttack/src/main/res/layout/activity_display_message.xml -->
