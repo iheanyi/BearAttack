@@ -33,7 +33,7 @@ public class DisplayMessageActivity extends Activity {
             // Find the text view
             messageTextView = (TextView) findViewById(R.id.messageTextView);
 
-            
+
             name = name.toLowerCase();
 
             // Test for various conditions
